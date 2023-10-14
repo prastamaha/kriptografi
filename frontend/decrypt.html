@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decrypt Message</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h2>Decrypt Message</h2>
+        <div>
+            <label>Key:</label>
+            <input type="text" id="keyForDecryption" class="form-control">
+            <label>Encrypted Message:</label>
+            <textarea id="encryptedMessage" class="form-control"></textarea>
+        </div>
+        <button id="decrypt" class="btn btn-primary mt-3">Decrypt</button>
+        <a href="index.html" class="btn btn-secondary mt-3">Back to Menu</a>
+        <div class="mt-3">
+            <label>Decrypted Message:</label>
+            <textarea id="decryptedOutput" readonly class="form-control"></textarea>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
